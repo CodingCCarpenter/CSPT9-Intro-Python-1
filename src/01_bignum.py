@@ -3,3 +3,6 @@
 
 # YOUR CODE HERE
 print(pow(2, 65536))
+
+# JavaScript Syntax
+# console.log(Math.pow(2, 65536));
