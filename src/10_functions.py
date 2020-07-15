@@ -14,14 +14,15 @@ print(is_even(3), '**False expected')
 print(is_even(4), '**True expected')
 
 # Read a number from the keyboard
-num = input("Enter a number: ")
-num = int(num)
+num = int(input("Enter a number: "))
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 def even_stevens(num):
     if num % 2 == 0:
-        return "Even!"
+        print("Even!")
     else:
-        return "Odd!"
+        print("Odd!")
 # YOUR CODE HERE
+
+even_stevens(num)
 
